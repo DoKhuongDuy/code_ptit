@@ -30,7 +30,11 @@ public class TN03 {
             }
             sorted.append(value);
         }
-        return sorted.toString() + dem;
+        if (dem > 0) {
+            return sorted.toString() + dem;
+        } else {
+            return "";
+        }
     }
 }
 //2
