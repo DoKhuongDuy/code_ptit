@@ -1,19 +1,19 @@
-package com.ptit.code;
+package com.ptit.code.laptrinhcoban;
 
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class J03014 {
+public class J03015 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         BigInteger a = scanner.nextBigInteger();
         BigInteger b = scanner.nextBigInteger();
-        System.out.println(a.add(b));
+        System.out.println(a.subtract(b));
     }
 }
 
-//121212121212121212
+//000123456789012345678901234567890
 //
-//45678978
+//00000000000000001234567890
 //
-//121212121257800190
+//123456789012345678900000000000

@@ -1,4 +1,4 @@
-package com.ptit.code;
+package com.ptit.code.laptrinhcoban;
 
 import java.util.Arrays;
 import java.util.Scanner;
